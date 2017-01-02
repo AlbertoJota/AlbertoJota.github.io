@@ -8,9 +8,8 @@
     <script src="js/picturefill.js" async></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,500' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,500' >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -42,47 +41,74 @@
         <div class="row">
             <div class="col-xs-12">
                 <picture>
-                    <!--[if IE 9]><video style="display: none;"><![endif]-->
-                    <source media="(max-width: 320px)" srcset="images_src/lake-small.jpg 1x,
-                    images_src/lake-small_x2.jpg 2x">
-                    <source media="(max-width: 640px)" srcset="images_src/lake-median.jpg 1x,
-                    images_src/lake-median_x2.jpg 2x">
-                    <source media="(max-width: 960px)" srcset="images_src/lake-large.jpg 1x,
-                    images_src/lake-large_x2.jpg 2x">
-                    <!--[if IE 9]></video><![endif]-->
-                    <img class="main-img img-responsive" src="images_src/lake-large.jpg" alt="Space Needle">
+                    <figure>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(max-width: 320px)" srcset="images_src/lake-small.jpg 1x,
+                        images_src/lake-small_x2.jpg 2x">
+                        <source media="(max-width: 640px)" srcset="images_src/lake-median.jpg 1x,
+                        images_src/lake-median_x2.jpg 2x">
+                        <source media="(max-width: 960px)" srcset="images_src/lake-large.jpg 1x,
+                        images_src/lake-large_x2.jpg 2x">
+                        <!--[if IE 9]></video><![endif]-->
+                        <img class="main-img img-responsive" src="images_src/lake-large.jpg" alt="Lago de serra da mesa.">
+                        <figcaption>Serra da Mesa lake, in Brazil.</figcaption>
+                    </figure>
                 </picture>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-muted">
+            <div class="col-xs-12 text-muted">
                 <h2>Featured Work</h2>
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placekitten.com/555/300" data-toggle="modal" data-target="#project1">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <picture>
+                    <figure>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(max-width: 320px)" srcset="images_src/sunrise-small.jpg 1x,
+                        images_src/sunrise-small_x2.jpg 2x">
+                        <source media="(max-width: 640px)" srcset="images_src/sunrise-median.jpg 1x,
+                        images_src/sunrise-median_x2.jpg 2x">
+                        <!--[if IE 9]></video><![endif]-->
+                        <img class="main-img img-responsive" src="images_src/sunrise-median.jpg" alt="Lago de serra da mesa.">
+                        <figcaption>Sunrise at Serra da Mesa lake.</figcaption>
+                    </figure>
+                </picture>
                 <h3>Appify</h3>
                 <p><a href="http://github.com/">Link to project</a></p>
             </div>
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placekitten.com/555/300" data-toggle="modal" data-target="#project2">
-                <h3>Appify</h3>
-                <p><a href="http://github.com/">Link to project</a></p>
+            <div class="clearfix visible-xs"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <picture>
+                    <figure>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source srcset="images_src/golden-small.jpg 1x,
+                        images_src/golden-small_x2.jpg 2x">
+                        <!--[if IE 9]></video><![endif]-->
+                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
+                        <figcaption>Puppy of Golden Retriever dog.</figcaption>
+                    </figure>
+                </picture>
+                <h3>Trading card.</h3>
+                <p><a href="card/index.html" target="_blank">Link to project</a></p>
             </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placekitten.com/555/300">
-                <h3>Appify</h3>
-                <p><a href="http://github.com/">Link to project</a></p>
-            </div>
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placekitten.com/555/300">>
-                <h3>Appify</h3>
-                <p><a href="http://github.com/">Link to project</a></p>
+            <div class="clearfix visible-sm"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <picture>
+                    <figure>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source srcset="images_src/golden-small.jpg 1x,
+                        images_src/golden-small_x2.jpg 2x">
+                        <!--[if IE 9]></video><![endif]-->
+                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
+                        <figcaption>Puppy of Golden Retriever dog.</figcaption>
+                    </figure>
+                </picture>
+                <h3>Trading card.</h3>
+                <p><a href="card/index.html" target="_blank">Link to project</a></p>
             </div>
         </div>
     </div>

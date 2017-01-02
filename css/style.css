@@ -50,3 +50,7 @@ h1, h4 {
 .container {
     height: 100vh;
 }
+
+figcaption {
+    padding-top: 10px;
+}
