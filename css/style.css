@@ -54,3 +54,8 @@ h1, h4 {
 figcaption {
     padding-top: 10px;
 }
+
+.validator {
+    border: solid black 1px;
+    min-height: 100%;
+}
