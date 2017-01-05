@@ -11,43 +11,44 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,500' >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/animation.js" async></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="row">
-                <div class="col-xs-4 logo">
-                    <div class="box-logo">
-                        <figure>
-                            <img class="img-responsive" id="ying-yang" src="images_src/Ying-Yang.svg" alt="Logo Ying-Yang">
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-xs-8">
-                    <h1 id="name">
-                        Alberto Jota
-                    </h1>
-                    <h4 id="office">
-                        Front-End Ladino
-                    </h4>
+    <section class="container">
+        <div class="row">
+            <div class="col-xs-4 logo">
+                <div class="box-logo">
+                    <figure>
+                        <img class="img-responsive" id="ying-yang" src="images_src/Ying-Yang.svg" alt="Logo Ying-Yang">
+                    </figure>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <hr id="divisor">
-                </div>
+            <div class="col-xs-8">
+                <h1 id="name">
+                    Alberto Jota
+                </h1>
+                <h4 id="office">
+                    Front-End Ladino
+                </h4>
             </div>
-        </header>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <hr id="divisor">
+            </div>
+        </div>
         <div class="row">
             <div class="col-xs-12">
                 <figure>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source media="(max-width: 320px)" srcset="images_src/lake-small.jpg 1x,
+                        <source media="(max-width: 320px) and (orientation: portrait)" srcset="images_src/lake-small.jpg 1x,
                         images_src/lake-small_x2.jpg 2x">
-                        <source media="(max-width: 640px)" srcset="images_src/lake-median.jpg 1x,
+                        <source media="(max-width: 720px) and (orientation: landscape)" srcset="images_src/lake-small-landscape.jpg 1x,
+                        images_src/lake-small-landscape.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: portrait)" srcset="images_src/lake-median.jpg 1x,
                         images_src/lake-median_x2.jpg 2x">
-                        <source media="(max-width: 960px)" srcset="images_src/lake-large.jpg 1x,
+                        <source media="(max-width: 960px) and (orientation: portrait)" srcset="images_src/lake-large.jpg 1x,
                         images_src/lake-large_x2.jpg 2x">
                         <!--[if IE 9]></video><![endif]-->
                         <img class="main-img img-responsive" src="images_src/lake-large.jpg" alt="Lago de serra da mesa.">
@@ -56,148 +57,144 @@
                 </figure>
             </div>
         </div>
-    </div>
-    <div class="container">
+    </section>
+    <section class="container">
         <div class="row">
             <div class="col-xs-12 text-muted">
                 <h2>Featured Work</h2>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <ul class="row text-center">
+            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <figure>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source media="(max-width: 320px)" srcset="images_src/sunrise-small.jpg 1x,
-                        images_src/sunrise-small_x2.jpg 2x">
-                        <source media="(max-width: 640px)" srcset="images_src/sunrise-median.jpg 1x,
-                        images_src/sunrise-median_x2.jpg 2x">
+                        <source media="(max-width: 320px) and (orientation: portrait)" srcset="images_src/peach-small.jpg 1x,
+                        images_src/peach-small_x2.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: landscape)" srcset="images_src/peach-small-landscape.jpg 1x,
+                        images_src/peach-small-landscape.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: portrait)" srcset="images_src/peach-median.jpg 1x,
+                        images_src/peach-median_x2.jpg 2x">
+                        <source media="(max-width: 960px) and (orientation: portrait)" srcset="images_src/peach-large.jpg 1x,
+                        images_src/peach-large_x2.jpg 2x">
                         <!--[if IE 9]></video><![endif]-->
-                        <img class="main-img img-responsive" src="images_src/sunrise-median.jpg" alt="Lago de serra da mesa.">
+                        <img class="main-img img-responsive" src="images_src/peach-large.jpg" alt="Peach ice cream.">
                     </picture>
-                    <figcaption>Sunrise at Serra da Mesa lake.</figcaption>
+                    <figcaption>Homemade Peach Ice Cream.</figcaption>
                 </figure>
-                <h3>Flickr Photos</h3>
-                <p><a href="https://www.flickr.com/photos/150439348@N06/31236450773/in/dateposted-public/">Link to project</a></p>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>Recipe.</h3>
+                <p><a href="making-peach-ice-cream/index.html" target="_blank">Link to project</a></p>
+            </li>
+            <li class="clearfix visible-xs"></li>
+            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <figure>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images_src/golden-small.jpg 1x,
-                        images_src/golden-small_x2.jpg 2x">
+                        <source media="(max-width: 320px) and (orientation: portrait)" srcset="images_src/soup-small.jpg 1x,
+                        images_src/soup-small_x2.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: landscape)" srcset="images_src/soup-small-landscape.jpg 1x,
+                        images_src/soup-small-landscape.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: portrait)" srcset="images_src/soup-median.jpg 1x,
+                        images_src/soup-median_x2.jpg 2x">
+                        <source media="(max-width: 960px) and (orientation: portrait)" srcset="images_src/soup-large.jpg 1x,
+                        images_src/soup-large_x2.jpg 2x">
                         <!--[if IE 9]></video><![endif]-->
-                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
+                        <img class="main-img img-responsive" src="images_src/soup-large.jpg" alt="Hands typing.">
                     </picture>
-                    <figcaption>Puppy of Golden Retriever dog.</figcaption>
+                    <figcaption>Div soup clean up.</figcaption>
+                </figure>
+                <h3>Udacity problems.</h3>
+                <p><a href="div-soup-clean-up/index.html" target="_blank">Link to project</a></p>
+            </li>
+            <li class="clearfix visible-xs"></li>
+            <li class="clearfix visible-sm"></li>
+            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <figure>
+                    <picture>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(max-width: 320px) and (orientation: portrait)" srcset="images_src/responsive-small.jpg 1x,
+                        images_src/responsive-small_x2.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: landscape)" srcset="images_src/responsive-small-landscape.jpg 1x,
+                        images_src/responsive-small-landscape.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: portrait)" srcset="images_src/responsive-median.jpg 1x,
+                        images_src/responsive-median_x2.jpg 2x">
+                        <source media="(max-width: 960px) and (orientation: portrait)" srcset="images_src/responsive-large.jpg 1x,
+                        images_src/responsive-large_x2.jpg 2x">
+                        <!--[if IE 9]></video><![endif]-->
+                        <img class="main-img img-responsive" src="images_src/responsive-large.jpg" alt="Bird.">
+                    </picture>
+                    <figcaption>Responsive images Udacity.</figcaption>
+                </figure>
+                <h3>Trading card.</h3>
+                <p><a href="responsive-images/index.html" target="_blank">Link to project</a></p>
+            </li>
+            <li class="clearfix visible-xs"></li>
+            <li class="clearfix visible-md"></li>
+            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <figure>
+                    <picture>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source media="(max-width: 320px) and (orientation: portrait)" srcset="images_src/lake-small.jpg 1x,
+                        images_src/lake-small_x2.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: landscape)" srcset="images_src/lake-small-landscape.jpg 1x,
+                        images_src/lake-small-landscape.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: portrait)" srcset="images_src/lake-median.jpg 1x,
+                        images_src/lake-median_x2.jpg 2x">
+                        <source media="(max-width: 960px) and (orientation: portrait)" srcset="images_src/lake-large.jpg 1x,
+                        images_src/lake-large_x2.jpg 2x">
+                        <!--[if IE 9]></video><![endif]-->
+                        <img class="main-img img-responsive" src="images_src/lake-large.jpg" alt="Lago de serra da mesa.">
+                    </picture>
+                    <figcaption>Serra da Mesa lake, in Brazil.</figcaption>
                 </figure>
                 <h3>Trading card.</h3>
                 <p><a href="card/index.html" target="_blank">Link to project</a></p>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="clearfix visible-sm"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            </li>
+            <li class="clearfix visible-xs"></li>
+            <li class="clearfix visible-sm"></li>
+            <li class="clearfix visible-lg"></li>
+            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <figure>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images_src/golden-small.jpg 1x,
-                        images_src/golden-small_x2.jpg 2x">
+                        <source media="(max-width: 320px) and (orientation: portrait)" srcset="images_src/lake-small.jpg 1x,
+                        images_src/lake-small_x2.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: landscape)" srcset="images_src/lake-small-landscape.jpg 1x,
+                        images_src/lake-small-landscape.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: portrait)" srcset="images_src/lake-median.jpg 1x,
+                        images_src/lake-median_x2.jpg 2x">
+                        <source media="(max-width: 960px) and (orientation: portrait)" srcset="images_src/lake-large.jpg 1x,
+                        images_src/lake-large_x2.jpg 2x">
                         <!--[if IE 9]></video><![endif]-->
-                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
+                        <img class="main-img img-responsive" src="images_src/lake-large.jpg" alt="Lago de serra da mesa.">
                     </picture>
-                    <figcaption>Puppy of Golden Retriever dog.</figcaption>
+                    <figcaption>Serra da Mesa lake, in Brazil.</figcaption>
                 </figure>
                 <h3>Trading card.</h3>
                 <p><a href="card/index.html" target="_blank">Link to project</a></p>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="clearfix visible-md"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            </li>
+            <li class="clearfix visible-xs"></li>
+            <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <figure>
                     <picture>
                         <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images_src/golden-small.jpg 1x,
-                        images_src/golden-small_x2.jpg 2x">
+                        <source media="(max-width: 320px) and (orientation: portrait)" srcset="images_src/lake-small.jpg 1x,
+                        images_src/lake-small_x2.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: landscape)" srcset="images_src/lake-small-landscape.jpg 1x,
+                        images_src/lake-small-landscape.jpg 2x">
+                        <source media="(max-width: 720px) and (orientation: portrait)" srcset="images_src/lake-median.jpg 1x,
+                        images_src/lake-median_x2.jpg 2x">
+                        <source media="(max-width: 960px) and (orientation: portrait)" srcset="images_src/lake-large.jpg 1x,
+                        images_src/lake-large_x2.jpg 2x">
                         <!--[if IE 9]></video><![endif]-->
-                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
+                        <img class="main-img img-responsive" src="images_src/lake-large.jpg" alt="Lago de serra da mesa.">
                     </picture>
-                    <figcaption>Puppy of Golden Retriever dog.</figcaption>
+                    <figcaption>Serra da Mesa lake, in Brazil.</figcaption>
                 </figure>
                 <h3>Trading card.</h3>
                 <p><a href="card/index.html" target="_blank">Link to project</a></p>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="clearfix visible-sm"></div>
-            <div class="clearfix visible-lg"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <figure>
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images_src/golden-small.jpg 1x,
-                        images_src/golden-small_x2.jpg 2x">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
-                    </picture>
-                    <figcaption>Puppy of Golden Retriever dog.</figcaption>
-                </figure>
-                <h3>Trading card.</h3>
-                <p><a href="card/index.html" target="_blank">Link to project</a></p>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <figure>
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images_src/golden-small.jpg 1x,
-                        images_src/golden-small_x2.jpg 2x">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
-                    </picture>
-                    <figcaption>Puppy of Golden Retriever dog.</figcaption>
-                </figure>
-                <h3>Trading card.</h3>
-                <p><a href="card/index.html" target="_blank">Link to project</a></p>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="clearfix visible-sm"></div>
-            <div class="clearfix visible-md"></div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <figure>
-                    <picture>
-                        <!--[if IE 9]><video style="display: none;"><![endif]-->
-                        <source srcset="images_src/golden-small.jpg 1x,
-                        images_src/golden-small_x2.jpg 2x">
-                        <!--[if IE 9]></video><![endif]-->
-                        <img class="main-img img-responsive" src="images_src/golden-small.jpg" alt="Puppy of Golden Retriever dog.">
-                    </picture>
-                    <figcaption>Puppy of Golden Retriever dog.</figcaption>
-                </figure>
-                <h3>Trading card.</h3>
-                <p><a href="card/index.html" target="_blank">Link to project</a></p>
-            </div>
-            <div class="clearfix visible-xs"></div>
-            <div class="validator col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <p>
-                    This document was validate by W3C Validator.
-                </p>
-                <p>
-                    <a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Falbertojota.github.io%2F">
-                        <img style="border:0;width:88px;height:31px"
-                        src="images_src/validHtml5.jpg"
-                        alt="CSS válido!" />
-                    </a>
-                </p>
-                <p>
-                    <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falbertojota.github.io%2Fcss%2Fstyle.css&profile=css3&usermedium=all&warning=1&vextwarning=&lang=pt-BR">
-                        <img style="border:0;width:88px;height:31px"
-                        src="images_src/vcss-blue.gif"
-                        alt="CSS válido!" />
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <script src="js/animation.js"></script>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
