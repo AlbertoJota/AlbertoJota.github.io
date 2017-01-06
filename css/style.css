@@ -42,10 +42,6 @@ h1, h4 {
     box-shadow: 10px 10px 5px #888888;
 }
 
-.container {
-    height: 100vh;
-}
-
 figcaption {
     padding-top: 10px;
 }
@@ -66,10 +62,6 @@ figcaption {
         margin: 0;
         width: 80px;
     }
-
-    .visible-xs {
-        height: 100vh;
-    }
 }
 
 li {
@@ -86,26 +78,26 @@ li {
     background: linear-gradient(90deg, gray, lightgray); /* Standard syntax */
 }
 
-.visible-lg {
-    height: 30vh;
-}
-
-.visible-md {
-    height: 50vh;
-}
-
-.visible-sm {
-    height: 50vh;
-}
-
-.visible-xs {
-    height: 100vh;
-}
-
 ul {
     padding: 0;
 }
 
 h3 {
     margin-top: 10px;
+}
+
+.modal-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #777;
+}
+
+.modal {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #777;
+}
+
+.text-modal {
+    padding-top: 20px;
 }
