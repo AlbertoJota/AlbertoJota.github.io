@@ -28,24 +28,6 @@
     text-align: right;
 }
 
-hr {
-    border-width: 2px;
-    border-color: blue;
-}
-
-h1, h4 {
-    color: blue;
-}
-
-.main-img {
-    border-radius: 15px;
-    box-shadow: 10px 10px 5px #888888;
-}
-
-figcaption {
-    padding-top: 10px;
-}
-
 .validator {
     border: solid black 1px;
     height: 100%;
@@ -56,34 +38,9 @@ figcaption {
     margin: auto;
 }
 
-@media (orientation: landscape) {
-
-    .box-logo {
-        margin: 0;
-        width: 80px;
-    }
-}
-
-li {
-    padding-top: 30px;
-    list-style-type: none;
-}
-
-#grad {
-    border-radius: 20px;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(90deg, gray, lightgray); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, gray, lightgray); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, gray, lightgray); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(90deg, gray, lightgray); /* Standard syntax */
-}
-
-ul {
-    padding: 0;
-}
-
-h3 {
-    margin-top: 10px;
+.main-img {
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .modal-title {
@@ -100,4 +57,68 @@ h3 {
 
 .text-modal {
     padding-top: 20px;
+}
+
+.fa-google-plus-official {
+    color: #f00;
+}
+
+.fa-github {
+    color: #000;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+body {
+    border-radius: 20px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(orange, #ffff00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(orange, #ffff00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(orange, #ffff00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(orange, #ffff00); /* Standard syntax */
+}
+
+hr {
+    border-width: 2px;
+    border-color: blue;
+}
+
+h1, h4 {
+    color: blue;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+figcaption {
+    padding-top: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding-top: 30px;
+    list-style-type: none;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (orientation: landscape) {
+    .box-logo {
+        margin: 0;
+        width: 80px;
+    }
 }
